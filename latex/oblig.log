@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.18)  11 MAR 2025 13:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.18)  11 MAR 2025 15:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -305,7 +305,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<BilinearInterpolationV2.svg.png, id=48, 1927.2pt x 1820.8025pt>
+<BilinearInterpolationV2.svg.png, id=52, 1927.2pt x 1820.8025pt>
 File: BilinearInterpolationV2.svg.png Graphic file (type png)
 <use BilinearInterpolationV2.svg.png>
 Package pdftex.def Info: BilinearInterpolationV2.svg.png  used on input line 34.
@@ -313,140 +313,167 @@ Package pdftex.def Info: BilinearInterpolationV2.svg.png  used on input line 34.
  [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./BilinearInterpolationV2.svg.png>] [2]
-<random.png, id=74, 912.40875pt x 911.405pt>
+<random.png, id=78, 912.40875pt x 911.405pt>
 File: random.png Graphic file (type png)
 <use random.png>
 Package pdftex.def Info: random.png  used on input line 91.
 (pdftex.def)             Requested size: 258.75pt x 258.45978pt.
-<uniform.png, id=75, 433.62pt x 433.62pt>
+ [3 <./random.png>]
+<metsim_random_sampling.png, id=86, 426.59375pt x 423.5825pt>
+File: metsim_random_sampling.png Graphic file (type png)
+<use metsim_random_sampling.png>
+Package pdftex.def Info: metsim_random_sampling.png  used on input line 97.
+(pdftex.def)             Requested size: 258.75pt x 256.93716pt.
+<uniform.png, id=87, 433.62pt x 433.62pt>
 File: uniform.png Graphic file (type png)
 <use uniform.png>
-Package pdftex.def Info: uniform.png  used on input line 100.
+Package pdftex.def Info: uniform.png  used on input line 106.
 (pdftex.def)             Requested size: 258.75pt x 258.7647pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3 <./random.png>]
-<vorticity_map.png, id=83, 445.665pt x 443.6575pt>
+[4 <./metsim_random_sampling.png>]
+<vorticity_map.png, id=94, 445.665pt x 443.6575pt>
 File: vorticity_map.png Graphic file (type png)
 <use vorticity_map.png>
-Package pdftex.def Info: vorticity_map.png  used on input line 128.
-(pdftex.def)             Requested size: 110.40253pt x 109.90541pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
-[]\OT1/cmr/m/n/9 (a) |Vor-tic-ity mag-ni-tude
- []
-
-<pow_0_6.png, id=84, 445.665pt x 443.6575pt>
-File: pow_0_6.png Graphic file (type png)
-<use pow_0_6.png>
-Package pdftex.def Info: pow_0_6.png  used on input line 134.
+Package pdftex.def Info: vorticity_map.png  used on input line 134.
 (pdftex.def)             Requested size: 110.40253pt x 109.90541pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]\OT1/cmr/m/n/9 (a) |Vor-tic-ity mag-ni-tude
+ []
+
+<pow_0_6.png, id=95, 445.665pt x 443.6575pt>
+File: pow_0_6.png Graphic file (type png)
+<use pow_0_6.png>
+Package pdftex.def Info: pow_0_6.png  used on input line 140.
+(pdftex.def)             Requested size: 110.40253pt x 109.90541pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 []\OT1/cmr/m/n/9 (b) |Vor-tic-ity mag-ni-tude
  []
 
-<pow_3_0.png, id=85, 444.66125pt x 442.65375pt>
+<pow_3_0.png, id=96, 444.66125pt x 442.65375pt>
 File: pow_3_0.png Graphic file (type png)
 <use pow_3_0.png>
-Package pdftex.def Info: pow_3_0.png  used on input line 140.
+Package pdftex.def Info: pow_3_0.png  used on input line 146.
 (pdftex.def)             Requested size: 110.40253pt x 109.89992pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 []\OT1/cmr/m/n/9 (c) |Vor-tic-ity mag-ni-tude
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<vort_result.png, id=86, 913.4125pt x 910.40125pt>
+<vort_result.png, id=97, 913.4125pt x 910.40125pt>
 File: vort_result.png Graphic file (type png)
 <use vort_result.png>
-Package pdftex.def Info: vort_result.png  used on input line 152.
+Package pdftex.def Info: vort_result.png  used on input line 158.
 (pdftex.def)             Requested size: 148.34747pt x 147.84814pt.
-<vort_result_3_0.png, id=87, 912.40875pt x 913.4125pt>
+<vort_result_3_0.png, id=98, 912.40875pt x 913.4125pt>
 File: vort_result_3_0.png Graphic file (type png)
 <use vort_result_3_0.png>
-Package pdftex.def Info: vort_result_3_0.png  used on input line 158.
+Package pdftex.def Info: vort_result_3_0.png  used on input line 164.
 (pdftex.def)             Requested size: 148.34747pt x 148.50443pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4 <./uniform.png>]
-<euler.png, id=94, 564.1075pt x 485.815pt>
+[5 <./uniform.png> <./vorticity_map.png> <./pow_0_6.png> <./pow_3_0.png>]
+<euler.png, id=110, 564.1075pt x 485.815pt>
 File: euler.png Graphic file (type png)
 <use euler.png>
-Package pdftex.def Info: euler.png  used on input line 175.
+Package pdftex.def Info: euler.png  used on input line 181.
 (pdftex.def)             Requested size: 165.59853pt x 142.61736pt.
-<rk4.png, id=95, 610.28pt x 522.95375pt>
+<rk4.png, id=111, 610.28pt x 522.95375pt>
 File: rk4.png Graphic file (type png)
 <use rk4.png>
-Package pdftex.def Info: rk4.png  used on input line 181.
+Package pdftex.def Info: rk4.png  used on input line 187.
 (pdftex.def)             Requested size: 165.59853pt x 141.9016pt.
+ [6 <./vort_result.png> <./vort_result_3_0.png> <./euler.png> <./rk4.png>] [7]
+<steps_8000_kernel_length_4.png, id=127, 347.6187pt x 348.3414pt>
+File: steps_8000_kernel_length_4.png Graphic file (type png)
+<use steps_8000_kernel_length_4.png>
+Package pdftex.def Info: steps_8000_kernel_length_4.png  used on input line 243.
+(pdftex.def)             Requested size: 110.40253pt x 110.63171pt.
+<steps_8000_kernel_length_8.png, id=128, 347.6187pt x 348.3414pt>
+File: steps_8000_kernel_length_8.png Graphic file (type png)
+<use steps_8000_kernel_length_8.png>
+Package pdftex.def Info: steps_8000_kernel_length_8.png  used on input line 249.
+(pdftex.def)             Requested size: 110.40253pt x 110.63171pt.
+<steps_8000_kernel_length_16.png, id=129, 347.6187pt x 348.3414pt>
+File: steps_8000_kernel_length_16.png Graphic file (type png)
+<use steps_8000_kernel_length_16.png>
+Package pdftex.def Info: steps_8000_kernel_length_16.png  used on input line 255.
+(pdftex.def)             Requested size: 110.40253pt x 110.63171pt.
+<frame_000.png, id=130, 333.8874pt x 333.8874pt>
+File: frame_000.png Graphic file (type png)
+<use frame_000.png>
+Package pdftex.def Info: frame_000.png  used on input line 270.
+(pdftex.def)             Requested size: 155.24895pt x 155.25093pt.
+<frame_006.png, id=131, 333.8874pt x 333.8874pt>
+File: frame_006.png Graphic file (type png)
+<use frame_006.png>
+Package pdftex.def Info: frame_006.png  used on input line 271.
+(pdftex.def)             Requested size: 155.24895pt x 155.25093pt.
+<frame_012.png, id=132, 333.8874pt x 333.8874pt>
+File: frame_012.png Graphic file (type png)
+<use frame_012.png>
+Package pdftex.def Info: frame_012.png  used on input line 272.
+(pdftex.def)             Requested size: 155.24895pt x 155.25093pt.
+<frame_018.png, id=133, 333.8874pt x 333.8874pt>
+File: frame_018.png Graphic file (type png)
+<use frame_018.png>
+Package pdftex.def Info: frame_018.png  used on input line 273.
+(pdftex.def)             Requested size: 155.24895pt x 155.25093pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <./vorticity_map.png> <./pow_0_6.png> <./pow_3_0.png> <./vort_result.png> <./vort_result_3_0.png>] [6 <./euler.png> <./rk4.png>]
-<steps_8000_kernel_length_4.png, id=115, 347.6187pt x 348.3414pt>
-File: steps_8000_kernel_length_4.png Graphic file (type png)
-<use steps_8000_kernel_length_4.png>
-Package pdftex.def Info: steps_8000_kernel_length_4.png  used on input line 238.
-(pdftex.def)             Requested size: 110.40253pt x 110.63171pt.
-<steps_8000_kernel_length_8.png, id=116, 347.6187pt x 348.3414pt>
-File: steps_8000_kernel_length_8.png Graphic file (type png)
-<use steps_8000_kernel_length_8.png>
-Package pdftex.def Info: steps_8000_kernel_length_8.png  used on input line 244.
-(pdftex.def)             Requested size: 110.40253pt x 110.63171pt.
-<steps_8000_kernel_length_16.png, id=117, 347.6187pt x 348.3414pt>
-File: steps_8000_kernel_length_16.png Graphic file (type png)
-<use steps_8000_kernel_length_16.png>
-Package pdftex.def Info: steps_8000_kernel_length_16.png  used on input line 250.
-(pdftex.def)             Requested size: 110.40253pt x 110.63171pt.
- [7 <./steps_8000_kernel_length_4.png> <./steps_8000_kernel_length_8.png> <./steps_8000_kernel_length_16.png>]
-<frame_000.png, id=127, 333.8874pt x 333.8874pt>
-File: frame_000.png Graphic file (type png)
-<use frame_000.png>
-Package pdftex.def Info: frame_000.png  used on input line 265.
-(pdftex.def)             Requested size: 155.24895pt x 155.25093pt.
-<frame_006.png, id=128, 333.8874pt x 333.8874pt>
-File: frame_006.png Graphic file (type png)
-<use frame_006.png>
-Package pdftex.def Info: frame_006.png  used on input line 266.
-(pdftex.def)             Requested size: 155.24895pt x 155.25093pt.
-<frame_012.png, id=129, 333.8874pt x 333.8874pt>
-File: frame_012.png Graphic file (type png)
-<use frame_012.png>
-Package pdftex.def Info: frame_012.png  used on input line 267.
-(pdftex.def)             Requested size: 155.24895pt x 155.25093pt.
-<frame_018.png, id=130, 333.8874pt x 333.8874pt>
-File: frame_018.png Graphic file (type png)
-<use frame_018.png>
-Package pdftex.def Info: frame_018.png  used on input line 268.
-(pdftex.def)             Requested size: 155.24895pt x 155.25093pt.
- [8 <./frame_000.png> <./frame_006.png> <./frame_012.png> <./frame_018.png>] [9] (./oblig.aux)
+<metsim_original.png, id=134, 482.80376pt x 483.8075pt>
+File: metsim_original.png Graphic file (type png)
+<use metsim_original.png>
+Package pdftex.def Info: metsim_original.png  used on input line 295.
+(pdftex.def)             Requested size: 110.40253pt x 110.63112pt.
+<metsim_250_250.png, id=135, 482.80376pt x 483.8075pt>
+File: metsim_250_250.png Graphic file (type png)
+<use metsim_250_250.png>
+Package pdftex.def Info: metsim_250_250.png  used on input line 301.
+(pdftex.def)             Requested size: 110.40253pt x 110.63112pt.
+<metsim_500_500.png, id=136, 482.80376pt x 483.8075pt>
+File: metsim_500_500.png Graphic file (type png)
+<use metsim_500_500.png>
+Package pdftex.def Info: metsim_500_500.png  used on input line 307.
+(pdftex.def)             Requested size: 110.40253pt x 110.63112pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8 <./steps_8000_kernel_length_4.png> <./steps_8000_kernel_length_8.png> <./steps_8000_kernel_length_16.png>]
+
+LaTeX Warning: Text page 9 contains only floats.
+
+
+Overfull \vbox (2.13298pt too high) has occurred while \output is active []
+
+ [9 <./frame_000.png> <./frame_006.png> <./frame_012.png> <./frame_018.png> <./metsim_original.png> <./metsim_250_250.png> <./metsim_500_500.png>] [10] (./oblig.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `oblig.out' has not changed.
-(rerunfilecheck)             Checksum: 28D4EB67EF25A3D22F75277F61B38CA4;1733.
+(rerunfilecheck)             Checksum: 51477D8032C4C390C644013ACF2DB04B;2026.
  ) 
 Here is how much of TeX's memory you used:
- 10761 strings out of 474116
- 172125 string characters out of 5743682
- 1935187 words of memory out of 5000000
- 32974 multiletter control sequences out of 15000+600000
+ 10794 strings out of 474116
+ 172965 string characters out of 5743682
+ 1936187 words of memory out of 5000000
+ 33003 multiletter control sequences out of 15000+600000
  567018 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,14n,79p,420b,613s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on oblig.pdf (9 pages, 17968835 bytes).
+Output written on oblig.pdf (10 pages, 20058381 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 

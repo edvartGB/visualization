@@ -91,6 +91,12 @@ for i in range(num_particles):
     \includegraphics[width=0.75\textwidth, angle=270]{random.png}
     \caption{Field lines from 1000 randomly distributed particles}
 \end{figure}
+\newpage
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\textwidth]{metsim_random_sampling.png}
+    \caption{Random sampling for metsim data}
+\end{figure}
 
 \subsubsection{Uniform seeding}
 Uniform seeding is another simple seeding strategy where seeds
@@ -199,7 +205,6 @@ texture. $\sigma_{uv}$ is the unique field line passing through the pixel $(u, v
 in the output texture is the result of blurring the noise texture at points along the field line passing through that pixel.
 The result is that pixels along the same field line will obtain similar intensities (correlated), while pixels orthogonal to the field line will be uncorrelated.
 
-\newpage
 
 In the implementation, the computation of the field lines themselves and the convolutions with the kernel happen simultaneously.
 The computation is separated into a forward-stepping part and a backward-stepping part.
@@ -273,6 +278,37 @@ In the second comparison, a constant arc length of 4 was chosen, and different k
 The kernel length determines the accuracy of the field line computations and has a direct impact on the LIC result.
 If the kernel length is too low, pixels which are theoretically on the same field lines will find different solutions which reduces
 the correlation along the field lines. The larger the kernel size, the stronger correlations will be, though the improvements will diminish as L grows sufficiently large.
+
+Artifacts can be seen in the discontinuous parts of the image (land) and at some of the edges. These are edge cases which are not handled properly in the implementation.
+To remove these artifacts, the integration should be terminated when stream lines leave the domain, and when they get "stuck" in areas with zero-data.
+
+
+\subsubsection{Changing resolutions in the metsim dataset}
+The metsim dataset has a low intrinsic resolution. This naturally produces a very coarse LIC representation. We can arbitrarily upscale
+the vector field (using bilinear interpolation) to produce a smoother result. The figure shows the LIC from the original resolution and from an upscaled version.
+The upscaling was done using opencv2.
+
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{metsim_original.png}
+        \caption{127x126}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{metsim_250_250.png}
+        \caption{250x250}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{metsim_500_500.png}
+        \caption{500x500}
+    \end{subfigure}
+    \caption{}
+\end{figure}
 
 \section{Geometric vs. Texture-based Methods}
 The accuracy of the numerical integration (Euler vs RK4) is very important in LIC, as even small errors in the solutions found will decrease the coherence in the image.
