@@ -46,7 +46,7 @@ img = np.array([u, v, np.zeros_like(u)])
 mesh_size = u.shape[0]
 dudx, dudy = np.gradient(u, axis=(0, 1))
 dvdx, dvdy = np.gradient(v, axis=(0, 1))
-vorticity = np.abs(dvdx - dudx)
+vorticity = np.abs(dvdx - dudy)
 vorticity = np.pow(gaussian_filter(vorticity, sigma=15), 3.0)
 
 
@@ -152,6 +152,6 @@ visualize(magnitude2(u.T, v.T))
 
 
 ani = animation.FuncAnimation(fig, update, frames=steps, interval=10, blit=True) 
-ani.save("../animations/vorticity_seeding_blur_pow_3.mp4")
+ani.save("../animations/test.mp4")
 
 plt.show()

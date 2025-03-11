@@ -51,7 +51,7 @@ v = np.array(d1["Velocity"]["Y-comp"])
 img = np.array([u, v, np.zeros_like(u)])
 
 
-num_particles = 1200
+num_particles = 1000 
 T = 30
 dt = 0.1
 steps = int(T / dt)
