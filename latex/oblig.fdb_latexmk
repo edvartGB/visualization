@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1741703387.4906 "/Users/edvart/Programming/visualization/latex/oblig.tex" "oblig.pdf" "oblig" 1741703389.96349 0
-  "/Users/edvart/Programming/visualization/latex/oblig.tex" 1741703384.62344 16367 e7afcb380898be84f63a2d1540827dc2 ""
+["pdflatex"] 1741770876.42011 "/Users/edvart/Programming/visualization/latex/oblig.tex" "oblig.pdf" "oblig" 1741770878.84073 0
+  "/Users/edvart/Programming/visualization/latex/oblig.tex" 1741770873.70861 16388 237f48a05b7a968ea89269b612169fad ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -108,9 +108,9 @@
   "metsim_500_500.png" 1741700522.31718 410585 5f7b22a583033597162f2157b48de722 ""
   "metsim_original.png" 1741700551.61264 60031 45cb196d98d4819be81f8e306964ced7 ""
   "metsim_random_sampling.png" 1741703253.49874 910597 293603f27031ed3212ac63cdf2cd3a74 ""
-  "oblig.aux" 1741703389.90371 3265 40fa81ed6fad2f1bda6b35cc9c39c17e "pdflatex"
-  "oblig.out" 1741703389.9042 2026 51477d8032c4c390c644013acf2db04b "pdflatex"
-  "oblig.tex" 1741703384.62344 16367 e7afcb380898be84f63a2d1540827dc2 ""
+  "oblig.aux" 1741770878.78171 3267 f6143aa2650608fa82447e0de85ef480 "pdflatex"
+  "oblig.out" 1741770878.78227 2026 51477d8032c4c390c644013acf2db04b "pdflatex"
+  "oblig.tex" 1741770873.70861 16388 237f48a05b7a968ea89269b612169fad ""
   "pow_0_6.png" 1741258527.63967 285252 b0060e70d26e8913c1214201d8efbe9a ""
   "pow_3_0.png" 1741258563.78385 49940 06a8a1ba365b594bdba44bfa0e58e2e7 ""
   "random.png" 1741255436.25029 5438629 653ba8bd397f2bfbcc5196036fdd50fa ""

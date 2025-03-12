@@ -275,6 +275,9 @@ In the second comparison, a constant arc length of 4 was chosen, and different k
     \caption{LIC with constant arc length and varying kernel size}
 \end{figure}
 
+
+\newpage 
+
 The kernel length determines the accuracy of the field line computations and has a direct impact on the LIC result.
 If the kernel length is too low, pixels which are theoretically on the same field lines will find different solutions which reduces
 the correlation along the field lines. The larger the kernel size, the stronger correlations will be, though the improvements will diminish as L grows sufficiently large.
@@ -282,7 +285,7 @@ the correlation along the field lines. The larger the kernel size, the stronger 
 Artifacts can be seen in the discontinuous parts of the image (land) and at some of the edges. These are edge cases which are not handled properly in the implementation.
 To remove these artifacts, the integration should be terminated when stream lines leave the domain, and when they get "stuck" in areas with zero-data.
 
-
+\newpage 
 \subsubsection{Changing resolutions in the metsim dataset}
 The metsim dataset has a low intrinsic resolution. This naturally produces a very coarse LIC representation. We can arbitrarily upscale
 the vector field (using bilinear interpolation) to produce a smoother result. The figure shows the LIC from the original resolution and from an upscaled version.

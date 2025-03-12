@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.18)  11 MAR 2025 15:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.18)  12 MAR 2025 10:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -428,32 +428,23 @@ Package pdftex.def Info: frame_018.png  used on input line 273.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<metsim_original.png, id=134, 482.80376pt x 483.8075pt>
+[8 <./steps_8000_kernel_length_4.png> <./steps_8000_kernel_length_8.png> <./steps_8000_kernel_length_16.png>] [9 <./frame_000.png> <./frame_006.png> <./frame_012.png> <./frame_018.png>]
+<metsim_original.png, id=151, 482.80376pt x 483.8075pt>
 File: metsim_original.png Graphic file (type png)
 <use metsim_original.png>
-Package pdftex.def Info: metsim_original.png  used on input line 295.
+Package pdftex.def Info: metsim_original.png  used on input line 298.
 (pdftex.def)             Requested size: 110.40253pt x 110.63112pt.
-<metsim_250_250.png, id=135, 482.80376pt x 483.8075pt>
+<metsim_250_250.png, id=152, 482.80376pt x 483.8075pt>
 File: metsim_250_250.png Graphic file (type png)
 <use metsim_250_250.png>
-Package pdftex.def Info: metsim_250_250.png  used on input line 301.
+Package pdftex.def Info: metsim_250_250.png  used on input line 304.
 (pdftex.def)             Requested size: 110.40253pt x 110.63112pt.
-<metsim_500_500.png, id=136, 482.80376pt x 483.8075pt>
+<metsim_500_500.png, id=153, 482.80376pt x 483.8075pt>
 File: metsim_500_500.png Graphic file (type png)
 <use metsim_500_500.png>
-Package pdftex.def Info: metsim_500_500.png  used on input line 307.
+Package pdftex.def Info: metsim_500_500.png  used on input line 310.
 (pdftex.def)             Requested size: 110.40253pt x 110.63112pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[8 <./steps_8000_kernel_length_4.png> <./steps_8000_kernel_length_8.png> <./steps_8000_kernel_length_16.png>]
-
-LaTeX Warning: Text page 9 contains only floats.
-
-
-Overfull \vbox (2.13298pt too high) has occurred while \output is active []
-
- [9 <./frame_000.png> <./frame_006.png> <./frame_012.png> <./frame_018.png> <./metsim_original.png> <./metsim_250_250.png> <./metsim_500_500.png>] [10] (./oblig.aux)
+ [10 <./metsim_original.png> <./metsim_250_250.png> <./metsim_500_500.png>] [11] (./oblig.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -462,18 +453,18 @@ Package rerunfilecheck Info: File `oblig.out' has not changed.
 (rerunfilecheck)             Checksum: 51477D8032C4C390C644013ACF2DB04B;2026.
  ) 
 Here is how much of TeX's memory you used:
- 10794 strings out of 474116
- 172965 string characters out of 5743682
- 1936187 words of memory out of 5000000
+ 10795 strings out of 474116
+ 172972 string characters out of 5743682
+ 1934187 words of memory out of 5000000
  33003 multiletter control sequences out of 15000+600000
  567018 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,14n,79p,420b,613s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on oblig.pdf (10 pages, 20058381 bytes).
+Output written on oblig.pdf (11 pages, 20058660 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
+ 239 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
  202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
