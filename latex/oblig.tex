@@ -27,7 +27,7 @@ In practice, the solutions are not found analytically, but are simulated using
 numerical integration schemes on a discretized version of the vector field.
 In this case, the domain of the vector function is discretized into an $N \times M$ grid of points.
 The values at the exact grid points are samples of the true vector fields. To be able to
-sample in between grid points, an interpolation scheme is used. For this project,, bilinear interpolation has been implemented. 
+sample in between grid points, an interpolation scheme is used. For this project, bilinear interpolation has been implemented. 
 
 \begin{figure}[h!]
     \centering
@@ -36,7 +36,7 @@ sample in between grid points, an interpolation scheme is used. For this project
 \end{figure}
 
 \subsection{Integration schemes}
-Two integration schemes were used to find particular solutions: the forward euler method and the runge-kutta (RK4) method.
+Two integration schemes were used to find particular solutions: the forward euler method and the Runge-Kutta (RK4) method.
 
 The (time-independent) vector field $V$ is defined as a function which takes in a position vector  $(x, y)$, and returns a velocity vector $(u, v)$ representing the velocity at that position:
 $$V : \mathbb{R}^2 \rightarrow \mathbb{R}^2 $$
@@ -49,7 +49,7 @@ $$\mathbf{V}(\mathbf{x}(t)) = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-The velocity field V represents the ordinary differential equation relating 
+The velocity field $V$ represents the ordinary differential equation relating 
 the position vector $\mathbf{x}$ and its derivative:
 $$\mathbf{x}'(t) = V(\mathbf{x}(t))$$
 With solution:
@@ -61,7 +61,7 @@ The euler method is derived by taking the first-order taylor approximation aroun
     \mathbf{x}(t) &\approx \mathbf{x}(t_0) + \mathbf{V}(\mathbf{x}(t_0))(t-t_0)\\
     &= \mathbf{x}(t_0) + h\mathbf{V}(\mathbf{x}(t_0)) 
 \end{align*}
-Where $h = (t-t_0)$ is the "step length". The error of the solution decreases as the step length is reduced.
+Where $h = (t-t_0)$ is the step size. The error of the solution decreases as the step length is reduced.
 The equation is solved iteratively by integrating one "step ahead" at a time:
 $$\mathbf{x}_{k+1} = \mathbf{x}_k + hV(\mathbf{x}_k)$$
 
@@ -86,26 +86,82 @@ for i in range(num_particles):
     seeds_y.append(np.random.random() * u.shape[0] - 2)
 \end{verbatim}
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.75\textwidth, angle=270]{random.png}
-    \caption{Field lines from 1000 randomly distributed particles}
-\end{figure}
 \newpage
+
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.75\textwidth]{metsim_random_sampling.png}
-    \caption{Random sampling for metsim data}
+    \begin{subfigure}{0.65\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{metsim_random_150.eps}
+        \caption{150 randomly seeded streamlines}
+    \end{subfigure}
+    \hfill
+    \hfill
+    \begin{subfigure}{0.65\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{metsim_random_500.eps}
+        \caption{500 randomly seeded streamlines}
+    \end{subfigure}
+    \caption{Random seeding on metsim data (vector graphics, zoom in!)}
+\end{figure}
+
+
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{0.65\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{isabel_random_150.eps}
+        \caption{150 randomly seeded points}
+    \end{subfigure}
+    \hfill
+    \hfill
+    \begin{subfigure}{0.65\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{isabel_random_500.eps}
+        \caption{500 randomly seeded points}
+    \end{subfigure}
+    \caption{Random seeding on isabel data (vector graphics, zoom in!)}
 \end{figure}
 
 \subsubsection{Uniform seeding}
 Uniform seeding is another simple seeding strategy where seeds
 are uniformly distributed (evenly spaced) onto the domain.
+
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.75\textwidth, angle=270]{uniform.png}
-    \caption{Field lines from 1000 evenly distributed particles}
+    \begin{subfigure}{0.6\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{metsim_uniform_150.eps}
+        \caption{150 uniformly seeded streamlines}
+    \end{subfigure}
+    \hfill
+    \hfill
+    \begin{subfigure}{0.6\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{metsim_uniform_500.eps}
+        \caption{500 uniformly seeded streamlines}
+    \end{subfigure}
+    \caption{Uniform seeding on metsim data}
 \end{figure}
+
+\newpage
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{0.6\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{isabel_uniform_150.eps}
+        \caption{150 uniformly seeded streamlines}
+    \end{subfigure}
+    \hfill
+    \hfill
+    \begin{subfigure}{0.6\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{isabel_uniform_500.eps}
+        \caption{500 uniformly seeded streamlines}
+    \end{subfigure}
+    \caption{Uniform seeding on isabel data}
+\end{figure}
+
 
 \subsubsection{Vorticity-based seeding}
 In this custom seeding strategy, the vorticity of the vector field is used
@@ -116,7 +172,7 @@ to generate seeding points. The vorticity $\mathbf{\omega}$ is defined as the cu
     &= \frac{\partial v}{\partial x} - \frac{\partial u}{ \partial y}
 \end{align*}
 The vorticity of a 2-dimensional velocity field is a vector field pointing purely in the z-direction. In this implementation, 
-the magnitude of this vector field is used to generate a probability probability map from which seed points are randomly sampled.
+the magnitude of this vector field is used to generate a probability map from which seed points are randomly sampled.
 Gaussian blurring has been applied to the vorticity map and a bias has been added such that even areas with close to zero vorticity are 
 represented in the field line visualization.
 
@@ -149,22 +205,56 @@ using second order central differences.
     \caption{Comparison of vorticity magnitude field transformations.}
 \end{figure}
 
-
+\newpage
 
 \begin{figure}[h!]
     \centering
-    \begin{subfigure}{0.43\textwidth}
+    \begin{subfigure}{0.65\textwidth}
         \centering
         \includegraphics[width=\textwidth, angle=270]{vort_result.png}
         \caption{Field lines from vorticity map with flat bias}
     \end{subfigure}
     \hfill
-    \begin{subfigure}{0.43\textwidth}
+    \begin{subfigure}{0.65\textwidth}
         \centering
         \includegraphics[width=\textwidth, angle=270]{vort_result_3_0.png}
-        \caption{Field lines from vorticiy map raised to 3.0}
+        \caption{Field lines from vorticity map raised to 3.0}
     \end{subfigure}
-    \caption{}
+    \caption{Vorticity-based seeding on isabel data}
+\end{figure}
+
+\newpage
+
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{metsim_vorticity_unfiltered_seeds.eps}
+        \caption{Unfiltered vorticity map with seed points}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{metsim_vorticity_unfiltered.eps}
+        \caption{Resulting streamlines\vspace{3mm}}
+    \end{subfigure}
+    \caption{Unfiltered vorticity-based seeding on metsim data}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{0.43\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{metsim_vorticity_filtered_seeds.eps}
+        \caption{With blurring and added bias} % Add vertical space
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.43\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{metsim_vorticity_filtered.eps}
+        \caption{Resulting streamlines}
+    \end{subfigure}
+    \caption{Filtered vorticity-based seeding on metsim data. Vorticity was blurred with a gaussian kernel with $\sigma = 6$. A bias of $0.01*\mathrm{max}(\mathrm{vorticity})$ was also added.}
 \end{figure}
 
 All three strategies are able to highlight the general structures of the vector field, and it is difficult to say which one
@@ -173,7 +263,7 @@ and no domain insight is used to highlight particular features. The vorticity-ba
 requires more computation and some tweaking to yield good results. Still, this allows for more control in how the sampling is done, and we might
 get away with using fewer particles overall, reducing clutter.
 
-The difference in accuracy between euler-forward and RK4 are clear when inspecting the area high in vorticity:
+The different integration schemes (Euler and RK4) were tested on the two vector fields. A coarse time step was used to highlight the difference in accuracy. The inaccuracy of Euler's method is particularly noticeable in regions with high vorticity, such as around the eye of the Isabel hurricane
 \begin{figure}[h!]
     \centering
     \begin{subfigure}{0.48\textwidth}
@@ -187,8 +277,29 @@ The difference in accuracy between euler-forward and RK4 are clear when inspecti
         \includegraphics[width=\textwidth, angle=0]{rk4.png}
         \caption{RK4}
     \end{subfigure}
-    \caption{}
+    \caption{Comparison of integration schemes on isabel data.}
 \end{figure}
+
+In the metsim data, the euler integration method results in overshooting, leading to a spiralling pattern. In these results,
+the nature of the vector field could be misinterpreted.
+
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, angle=0]{metsim_uniform_euler.eps}
+        \caption{Euler}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, angle=0]{metsim_uniform_rk4.eps}
+        \caption{RK4}
+    \end{subfigure}
+    \caption{Comparison of integration schemes on metsim data. Note the misleading spiral behaviour near the center of the field.}
+\end{figure}
+
+
 
 \section{Line Integral Convolution}
 The LIC algorithm is another method for visualizing vector fields. This method is also based on numerical integration of stream lines,
@@ -200,7 +311,7 @@ with resolution equal to the size of the data grid.
 
 The intensity of a pixel $I(u, v)$ is defined as
 $$I(u, v) = \int_{-L/2}^{L/2}k(s)N(\sigma_{uv}(s))ds$$
-Where L is the kernel length, k is the kernel, N is a noise
+Where $L$ is the kernel length, $k$ is the kernel, $N$ is a noise
 texture. $\sigma_{uv}$ is the unique field line passing through the pixel $(u, v)$. Intuitively, each pixel
 in the output texture is the result of blurring the noise texture at points along the field line passing through that pixel.
 The result is that pixels along the same field line will obtain similar intensities (correlated), while pixels orthogonal to the field line will be uncorrelated.
@@ -225,65 +336,143 @@ for {s = 0; s <= L/2; s++}{
 
 \end{verbatim}
 This is a naive and slow implementation of LIC, though relatively simple to implement.
-A large inefficiency is that the same field lines are recomputed many times, since many pixels will 
-fall coincide with the same stream lines.
+A major inefficiency is that stream lines are recomputed many times, since many pixels
+coincide with the same stream lines.
 
-\subsection{Results}
-As post-processing steps, the LIC image was normalized and histogram equalization was used to increase
-the contrast of the LIC image. Then, the LIC image was blended with the velocity magnitude image using the 
+The algorithm was first implemented in Python (CPU) using numpy to speed up the algorithm. Later, it was reimplemented in Unity, using C\# for pre-processing and HLSL Compute Shaders for the actual LIC implementation.
+In the compute shader model, a thread is dispatched for each pixel in the result image, and the shader program executes in parallell across all threads.
+This massively sped up execution, and parameters can be changed with almost instant updates. This also made gathering results and fixing bugs much easier.
+
+Simulation and visualization parameters are exposed as shader uniforms and can be changed from the Unity Inspector:
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\textwidth]{unity_editor.png}
+    \caption{Unity shader uniform interface}
+\end{figure}
+
+The datasets are pre-processed and the velocity fields are normalized and encoded into RGB textures.
+In the compute shader, the data is sampled and bilinearly filtered on the GPU. The samples must then be "de-normalized"
+to obtain the original physically meaningful data values.
+
+Color maps were also added and can be changed by uploading images of the color maps laid out horizontally.
+The compute shader simply samples this color-map by using the data-value as a uv-coordinate.
+
+As a post-processing step, the contrast of the LIC image was enhanced by the formula
+$$I_{enhanced} = \alpha(I-0.5) + \beta$$
+
+Then, the LIC image was blended with the color-mapped velocity magnitude image using the 
 LIC image as an intensity map.
 
-First, a fixed kernel size of 8000 was chosen, and LIC images
-were produced using different arc lengths:
+\newpage
+\subsection{Results}
+First, some basic results are found on both datasets by tuning parameters until the result
+was satisfactory.
 
 \begin{figure}[h!]
     \centering
-    \begin{subfigure}{0.32\textwidth}
+    \begin{subfigure}{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{steps_8000_kernel_length_4.png}
-        \caption{arc length = 4}
+        \includegraphics[width=\textwidth]{LIC_metsim.png}
+        \caption{Metsim LIC}
     \end{subfigure}
     \hfill
-    \begin{subfigure}{0.32\textwidth}
+    \begin{subfigure}{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{steps_8000_kernel_length_8.png}
-        \caption{arc length = 8}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}{0.32\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{steps_8000_kernel_length_16.png}
-        \caption{arc length = 16}
+        \includegraphics[width=\textwidth]{LIC_isabel.png}
+        \caption{Isabel LIC}
     \end{subfigure}
     \caption{}
 \end{figure}
 
-From these results it is clear that the arc length chosen significantly
-changes the quality of the image. For these particular parameters, the result seems to get worse for arc lengths significantly
-greater than or less than 8. 
+\subsubsection{Arc Length}
+The algorithm was tested with different arc lengths (constant step length).
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{0.30\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{lic_metsim_arc_1.png}
+        \caption{arc length = 1.0}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.30\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{lic_metsim_arc_8.png}
+        \caption{arc length = 8.0}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.30\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{lic_metsim_arc_50.png}
+        \caption{arc length = 50.0}
+    \end{subfigure}
+    \caption{LIC algorithm on metsim data with different arc lengths.}
+\end{figure}
 
-In the second comparison, a constant arc length of 4 was chosen, and different kernel lengths L were tested.
+As expected, the LIC image is indistinguishable from the pure noise image when the arc length is too low.
+As the arc length increases, the image becomes more and more coherent as the structures grow longer. The performance/efficiency scales approximately 
+linearly with the arc length, as this effectively just controls the length of the integration loop. Still, execution is still 
+relatively quick (15ms or less with reasonable parameters) when executed using compute shaders.
 
 \begin{figure}[h!]
     \centering
-    \begin{tabular}{cc}
-        \subcaptionbox{L=100}{\includegraphics[width=0.45\textwidth]{frame_000.png}} &
-        \subcaptionbox{L=2000}{\includegraphics[width=0.45\textwidth]{frame_006.png}} \\
-        \subcaptionbox{L=4000}{\includegraphics[width=0.45\textwidth]{frame_012.png}} &
-        \subcaptionbox{L=6000}{\includegraphics[width=0.45\textwidth]{frame_018.png}} \\
-    \end{tabular}
-    \caption{LIC with constant arc length and varying kernel size}
+    \begin{subfigure}{0.30\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{LIC_isabel_arc_length_1.png}
+        \caption{arc length = 1.0}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.30\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{LIC_isabel_arc_length_8.png}
+        \caption{arc length = 8.0}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.30\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{LIC_isabel_arc_length_50.png}
+        \caption{arc length = 50.0}
+    \end{subfigure}
+    \caption{LIC algorithm on isabel data with different arc lengths.}
 \end{figure}
 
+\subsubsection{Euler vs. RK4 on LIC}
+To test LIC's robustness to simulation errors, results using the RK4 and Euler methods were gathered.
+ 
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{isabel_euler.png}
+        \caption{Euler scheme}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{isabel_rk4.png}
+        \caption{RK4 scheme}
+    \end{subfigure}
+\end{figure}
 
-\newpage 
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{lic_metsim_euler.png}
+        \caption{Euler scheme}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{lic_metsim_rk4.png}
+        \caption{RK4 scheme}
+    \end{subfigure}
+\end{figure}
 
-The kernel length determines the accuracy of the field line computations and has a direct impact on the LIC result.
-If the kernel length is too low, pixels which are theoretically on the same field lines will find different solutions which reduces
-the correlation along the field lines. The larger the kernel size, the stronger correlations will be, though the improvements will diminish as L grows sufficiently large.
+While not immediately obvious from these images, the RK4 scheme produces finer details in the structures, particularly in the eye of the hurricane.
+In the metsim data, we again see that the euler method results in a spiral-like structure, while the RK4 scheme preserves the elliptical form of the structure.
+The step sizes in these images were deliberately kept relatively large to exacerbate the inaccuracy of the Euler scheme.
 
-Artifacts can be seen in the discontinuous parts of the image (land) and at some of the edges. These are edge cases which are not handled properly in the implementation.
-To remove these artifacts, the integration should be terminated when stream lines leave the domain, and when they get "stuck" in areas with zero-data.
+
 
 \newpage 
 \subsubsection{Changing resolutions in the metsim dataset}
@@ -314,9 +503,8 @@ The upscaling was done using opencv2.
 \end{figure}
 
 \section{Geometric vs. Texture-based Methods}
-The accuracy of the numerical integration (Euler vs RK4) is very important in LIC, as even small errors in the solutions found will decrease the coherence in the image.
-For LIC to be successful, the pixels which coincide with a given analytical field line must compute arcs that mostly lie on this line. While accuracy is important
-for line-based methods as well, one can get acceptable line-based visualizations even with relatively inaccurate solvers.
+Although this may not be obvious from the results presented, texture-based methods like LIC are inherently more robust to numerical errors than streamline techniques. LIC relies on localized convolution rather than explicit trajectory integration, making it less sensitive to accumulated errors, step size variations, and inaccuracies in regions with high curvature or discontinuities.
+In contrast, streamlines are computed through numerical integration, where small errors accumulate over time and directly distort the visualization. LIC blends information across neighboring regions, intuitively "averaging out" local errors. Since LIC is based on texture filtering rather than long, continuous trajectories, it requires only short integration arcs, further reducing the impact of numerical inaccuracies.
 
 Line-based methods are also more intuitive than LIC, though care must be taken in choosing the right seeding strategy. With line-based methods, it's easy to miss
 important structures in the data, as large areas of the vector field are totally disregarded. LIC is more complete in this sense, where strong features and critical points
@@ -326,8 +514,11 @@ In general, both methods can produce satisfying visualizations of vector fields,
 both very flexible. In line-based visualization, a plethora of seeding strategies can be used to produce different results.
 In LIC, different input textures, kernel sizes and sub-arc lengths can be experimented with.
 
-Both methods are easily parallellizable as the same algorithm is used for all elements (seeds for lines, pixels for LIC). In terms of performance, the geometric method
-was faster in these experiments, but it should be noted that the LIC algorithm implemented is very slow and can be optimized.
+Both methods are easily parallellizable, as the same algorithm is used for all elements (seeds for lines, pixels for LIC). 
+
+In a standard, linear CPU implementation, the streamline method was faster to execute, as the number of seeds is only a fraction of the number of pixels. In LIC however, all pixels must be processed, which is slow in a linear implementation.
+However, if the algorithm is parallellized, LIC could actually be more performant than streamlines, since the performance bottleneck is in the individual thread execution time, and streamlines typically require a longer integration loop. 
+A parallellized streamline algorithm was not implemented, so this was not tested.
 
 \section{Summary and Conclusion}
 This report explored methods for visualizing vector fields using field lines and Line Integral Convolution (LIC). Various seeding strategies were tested for field lines: random, uniform, and vorticity-based seeding. Numerical integration methods, Euler and RK4, were compared, with RK4 being more accurate especially regions of high vorticity.

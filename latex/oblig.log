@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.18)  12 MAR 2025 10:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.18)  20 MAR 2025 13:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -305,166 +305,385 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<BilinearInterpolationV2.svg.png, id=52, 1927.2pt x 1820.8025pt>
+<BilinearInterpolationV2.svg.png, id=60, 1927.2pt x 1820.8025pt>
 File: BilinearInterpolationV2.svg.png Graphic file (type png)
 <use BilinearInterpolationV2.svg.png>
 Package pdftex.def Info: BilinearInterpolationV2.svg.png  used on input line 34.
 (pdftex.def)             Requested size: 172.5pt x 162.97609pt.
  [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./BilinearInterpolationV2.svg.png>] [2]
-<random.png, id=78, 912.40875pt x 911.405pt>
-File: random.png Graphic file (type png)
-<use random.png>
-Package pdftex.def Info: random.png  used on input line 91.
-(pdftex.def)             Requested size: 258.75pt x 258.45978pt.
- [3 <./random.png>]
-<metsim_random_sampling.png, id=86, 426.59375pt x 423.5825pt>
-File: metsim_random_sampling.png Graphic file (type png)
-<use metsim_random_sampling.png>
-Package pdftex.def Info: metsim_random_sampling.png  used on input line 97.
-(pdftex.def)             Requested size: 258.75pt x 256.93716pt.
-<uniform.png, id=87, 433.62pt x 433.62pt>
-File: uniform.png Graphic file (type png)
-<use uniform.png>
-Package pdftex.def Info: uniform.png  used on input line 106.
-(pdftex.def)             Requested size: 258.75pt x 258.7647pt.
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./BilinearInterpolationV2.svg.png>] [2] [3]
+Package epstopdf Info: Source file: <metsim_random_150.eps>
+(epstopdf)                    date: 2025-03-14 12:44:41
+(epstopdf)                    size: 984716 bytes
+(epstopdf)             Output file: <metsim_random_150-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-14 12:45:14
+(epstopdf)                    size: 102785 bytes
+(epstopdf)             Command: <repstopdf --outfile=metsim_random_150-eps-converted-to.pdf metsim_random_150.eps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
+<metsim_random_150-eps-converted-to.pdf, id=91, 268.00125pt x 268.00125pt>
+File: metsim_random_150-eps-converted-to.pdf Graphic file (type pdf)
+<use metsim_random_150-eps-converted-to.pdf>
+Package pdftex.def Info: metsim_random_150-eps-converted-to.pdf  used on input line 95.
+(pdftex.def)             Requested size: 224.2479pt x 224.24437pt.
+Package epstopdf Info: Source file: <metsim_random_500.eps>
+(epstopdf)                    date: 2025-03-14 12:43:56
+(epstopdf)                    size: 1717650 bytes
+(epstopdf)             Output file: <metsim_random_500-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-14 12:44:03
+(epstopdf)                    size: 294004 bytes
+(epstopdf)             Command: <repstopdf --outfile=metsim_random_500-eps-converted-to.pdf metsim_random_500.eps>
+(epstopdf)             \includegraphics on input line 102.
+Package epstopdf Info: Output file is already uptodate.
+<metsim_random_500-eps-converted-to.pdf, id=92, 282.05376pt x 268.00125pt>
+File: metsim_random_500-eps-converted-to.pdf Graphic file (type pdf)
+<use metsim_random_500-eps-converted-to.pdf>
+Package pdftex.def Info: metsim_random_500-eps-converted-to.pdf  used on input line 102.
+(pdftex.def)             Requested size: 224.2479pt x 213.07632pt.
+Package epstopdf Info: Source file: <isabel_random_150.eps>
+(epstopdf)                    date: 2025-03-14 13:00:10
+(epstopdf)                    size: 1713076 bytes
+(epstopdf)             Output file: <isabel_random_150-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-14 13:01:08
+(epstopdf)                    size: 305241 bytes
+(epstopdf)             Command: <repstopdf --outfile=isabel_random_150-eps-converted-to.pdf isabel_random_150.eps>
+(epstopdf)             \includegraphics on input line 113.
+Package epstopdf Info: Output file is already uptodate.
+<isabel_random_150-eps-converted-to.pdf, id=93, 254.9525pt x 268.00125pt>
+File: isabel_random_150-eps-converted-to.pdf Graphic file (type pdf)
+<use isabel_random_150-eps-converted-to.pdf>
+Package pdftex.def Info: isabel_random_150-eps-converted-to.pdf  used on input line 113.
+(pdftex.def)             Requested size: 224.2479pt x 235.73549pt.
+Package epstopdf Info: Source file: <isabel_random_500.eps>
+(epstopdf)                    date: 2025-03-14 13:00:32
+(epstopdf)                    size: 4071873 bytes
+(epstopdf)             Output file: <isabel_random_500-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-14 13:01:46
+(epstopdf)                    size: 941318 bytes
+(epstopdf)             Command: <repstopdf --outfile=isabel_random_500-eps-converted-to.pdf isabel_random_500.eps>
+(epstopdf)             \includegraphics on input line 120.
+Package epstopdf Info: Output file is already uptodate.
+<isabel_random_500-eps-converted-to.pdf, id=94, 254.9525pt x 268.00125pt>
+File: isabel_random_500-eps-converted-to.pdf Graphic file (type pdf)
+<use isabel_random_500-eps-converted-to.pdf>
+Package pdftex.def Info: isabel_random_500-eps-converted-to.pdf  used on input line 120.
+(pdftex.def)             Requested size: 224.2479pt x 235.73549pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4 <./metsim_random_sampling.png>]
-<vorticity_map.png, id=94, 445.665pt x 443.6575pt>
+Package epstopdf Info: Source file: <metsim_uniform_150.eps>
+(epstopdf)                    date: 2025-03-14 13:16:28
+(epstopdf)                    size: 1066154 bytes
+(epstopdf)             Output file: <metsim_uniform_150-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-14 13:17:10
+(epstopdf)                    size: 104008 bytes
+(epstopdf)             Command: <repstopdf --outfile=metsim_uniform_150-eps-converted-to.pdf metsim_uniform_150.eps>
+(epstopdf)             \includegraphics on input line 134.
+Package epstopdf Info: Output file is already uptodate.
+<metsim_uniform_150-eps-converted-to.pdf, id=95, 282.05376pt x 268.00125pt>
+File: metsim_uniform_150-eps-converted-to.pdf Graphic file (type pdf)
+<use metsim_uniform_150-eps-converted-to.pdf>
+Package pdftex.def Info: metsim_uniform_150-eps-converted-to.pdf  used on input line 134.
+(pdftex.def)             Requested size: 207.0021pt x 196.69023pt.
+Package epstopdf Info: Source file: <metsim_uniform_500.eps>
+(epstopdf)                    date: 2025-03-14 13:16:59
+(epstopdf)                    size: 1652942 bytes
+(epstopdf)             Output file: <metsim_uniform_500-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-14 13:17:10
+(epstopdf)                    size: 271497 bytes
+(epstopdf)             Command: <repstopdf --outfile=metsim_uniform_500-eps-converted-to.pdf metsim_uniform_500.eps>
+(epstopdf)             \includegraphics on input line 141.
+Package epstopdf Info: Output file is already uptodate.
+<metsim_uniform_500-eps-converted-to.pdf, id=96, 282.05376pt x 268.00125pt>
+File: metsim_uniform_500-eps-converted-to.pdf Graphic file (type pdf)
+<use metsim_uniform_500-eps-converted-to.pdf>
+Package pdftex.def Info: metsim_uniform_500-eps-converted-to.pdf  used on input line 141.
+(pdftex.def)             Requested size: 207.0021pt x 196.69023pt.
+[4 <./metsim_random_150-eps-converted-to.pdf> <./metsim_random_500-eps-converted-to.pdf>]
+
+LaTeX Warning: Text page 5 contains only floats.
+
+
+Overfull \vbox (4.47098pt too high) has occurred while \output is active []
+
+ [5 <./isabel_random_150-eps-converted-to.pdf> <./isabel_random_500-eps-converted-to.pdf>] [6 <./metsim_uniform_150-eps-converted-to.pdf> <./metsim_uniform_500-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <isabel_uniform_150.eps>
+(epstopdf)                    date: 2025-03-14 13:11:08
+(epstopdf)                    size: 1491809 bytes
+(epstopdf)             Output file: <isabel_uniform_150-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-14 13:12:41
+(epstopdf)                    size: 233287 bytes
+(epstopdf)             Command: <repstopdf --outfile=isabel_uniform_150-eps-converted-to.pdf isabel_uniform_150.eps>
+(epstopdf)             \includegraphics on input line 152.
+Package epstopdf Info: Output file is already uptodate.
+<isabel_uniform_150-eps-converted-to.pdf, id=131, 242.9075pt x 268.00125pt>
+File: isabel_uniform_150-eps-converted-to.pdf Graphic file (type pdf)
+<use isabel_uniform_150-eps-converted-to.pdf>
+Package pdftex.def Info: isabel_uniform_150-eps-converted-to.pdf  used on input line 152.
+(pdftex.def)             Requested size: 207.0021pt x 228.3869pt.
+Package epstopdf Info: Source file: <isabel_uniform_500.eps>
+(epstopdf)                    date: 2025-03-14 13:11:28
+(epstopdf)                    size: 3729700 bytes
+(epstopdf)             Output file: <isabel_uniform_500-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-14 13:12:41
+(epstopdf)                    size: 824731 bytes
+(epstopdf)             Command: <repstopdf --outfile=isabel_uniform_500-eps-converted-to.pdf isabel_uniform_500.eps>
+(epstopdf)             \includegraphics on input line 159.
+Package epstopdf Info: Output file is already uptodate.
+<isabel_uniform_500-eps-converted-to.pdf, id=132, 242.9075pt x 268.00125pt>
+File: isabel_uniform_500-eps-converted-to.pdf Graphic file (type pdf)
+<use isabel_uniform_500-eps-converted-to.pdf>
+Package pdftex.def Info: isabel_uniform_500-eps-converted-to.pdf  used on input line 159.
+(pdftex.def)             Requested size: 207.0021pt x 228.3869pt.
+ [7 <./isabel_uniform_150-eps-converted-to.pdf> <./isabel_uniform_500-eps-converted-to.pdf>]
+<vorticity_map.png, id=145, 445.665pt x 443.6575pt>
 File: vorticity_map.png Graphic file (type png)
 <use vorticity_map.png>
-Package pdftex.def Info: vorticity_map.png  used on input line 134.
+Package pdftex.def Info: vorticity_map.png  used on input line 190.
 (pdftex.def)             Requested size: 110.40253pt x 109.90541pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 []\OT1/cmr/m/n/9 (a) |Vor-tic-ity mag-ni-tude
  []
 
-<pow_0_6.png, id=95, 445.665pt x 443.6575pt>
+<pow_0_6.png, id=146, 445.665pt x 443.6575pt>
 File: pow_0_6.png Graphic file (type png)
 <use pow_0_6.png>
-Package pdftex.def Info: pow_0_6.png  used on input line 140.
+Package pdftex.def Info: pow_0_6.png  used on input line 196.
 (pdftex.def)             Requested size: 110.40253pt x 109.90541pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 []\OT1/cmr/m/n/9 (b) |Vor-tic-ity mag-ni-tude
  []
 
-<pow_3_0.png, id=96, 444.66125pt x 442.65375pt>
+<pow_3_0.png, id=147, 444.66125pt x 442.65375pt>
 File: pow_3_0.png Graphic file (type png)
 <use pow_3_0.png>
-Package pdftex.def Info: pow_3_0.png  used on input line 146.
+Package pdftex.def Info: pow_3_0.png  used on input line 202.
 (pdftex.def)             Requested size: 110.40253pt x 109.89992pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
 []\OT1/cmr/m/n/9 (c) |Vor-tic-ity mag-ni-tude
  []
 
-<vort_result.png, id=97, 913.4125pt x 910.40125pt>
+[8 <./vorticity_map.png> <./pow_0_6.png> <./pow_3_0.png>]
+<vort_result.png, id=156, 913.4125pt x 910.40125pt>
 File: vort_result.png Graphic file (type png)
 <use vort_result.png>
-Package pdftex.def Info: vort_result.png  used on input line 158.
-(pdftex.def)             Requested size: 148.34747pt x 147.84814pt.
-<vort_result_3_0.png, id=98, 912.40875pt x 913.4125pt>
+Package pdftex.def Info: vort_result.png  used on input line 214.
+(pdftex.def)             Requested size: 224.2479pt x 223.50172pt.
+<vort_result_3_0.png, id=157, 912.40875pt x 913.4125pt>
 File: vort_result_3_0.png Graphic file (type png)
 <use vort_result_3_0.png>
-Package pdftex.def Info: vort_result_3_0.png  used on input line 164.
-(pdftex.def)             Requested size: 148.34747pt x 148.50443pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5 <./uniform.png> <./vorticity_map.png> <./pow_0_6.png> <./pow_3_0.png>]
-<euler.png, id=110, 564.1075pt x 485.815pt>
+Package pdftex.def Info: vort_result_3_0.png  used on input line 220.
+(pdftex.def)             Requested size: 224.2479pt x 224.49187pt.
+ [9 <./vort_result.png> <./vort_result_3_0.png>]
+Package epstopdf Info: Source file: <metsim_vorticity_unfiltered_seeds.eps>
+(epstopdf)                    date: 2025-03-14 13:43:59
+(epstopdf)                    size: 1297464 bytes
+(epstopdf)             Output file: <metsim_vorticity_unfiltered_seeds-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-14 13:47:25
+(epstopdf)                    size: 27331 bytes
+(epstopdf)             Command: <repstopdf --outfile=metsim_vorticity_unfiltered_seeds-eps-converted-to.pdf metsim_vorticity_unfiltered_seeds.eps>
+(epstopdf)             \includegraphics on input line 232.
+Package epstopdf Info: Output file is already uptodate.
+<metsim_vorticity_unfiltered_seeds-eps-converted-to.pdf, id=165, 334.24875pt x 334.24875pt>
+File: metsim_vorticity_unfiltered_seeds-eps-converted-to.pdf Graphic file (type pdf)
+<use metsim_vorticity_unfiltered_seeds-eps-converted-to.pdf>
+Package pdftex.def Info: metsim_vorticity_unfiltered_seeds-eps-converted-to.pdf  used on input line 232.
+(pdftex.def)             Requested size: 165.59853pt x 165.6041pt.
+Package epstopdf Info: Source file: <metsim_vorticity_unfiltered.eps>
+(epstopdf)                    date: 2025-03-14 13:44:00
+(epstopdf)                    size: 1431738 bytes
+(epstopdf)             Output file: <metsim_vorticity_unfiltered-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-14 13:47:35
+(epstopdf)                    size: 198440 bytes
+(epstopdf)             Command: <repstopdf --outfile=metsim_vorticity_unfiltered-eps-converted-to.pdf metsim_vorticity_unfiltered.eps>
+(epstopdf)             \includegraphics on input line 238.
+Package epstopdf Info: Output file is already uptodate.
+<metsim_vorticity_unfiltered-eps-converted-to.pdf, id=166, 268.00125pt x 268.00125pt>
+File: metsim_vorticity_unfiltered-eps-converted-to.pdf Graphic file (type pdf)
+<use metsim_vorticity_unfiltered-eps-converted-to.pdf>
+Package pdftex.def Info: metsim_vorticity_unfiltered-eps-converted-to.pdf  used on input line 238.
+(pdftex.def)             Requested size: 165.59853pt x 165.5988pt.
+Package epstopdf Info: Source file: <metsim_vorticity_filtered_seeds.eps>
+(epstopdf)                    date: 2025-03-14 13:50:32
+(epstopdf)                    size: 1297484 bytes
+(epstopdf)             Output file: <metsim_vorticity_filtered_seeds-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-14 14:05:47
+(epstopdf)                    size: 30025 bytes
+(epstopdf)             Command: <repstopdf --outfile=metsim_vorticity_filtered_seeds-eps-converted-to.pdf metsim_vorticity_filtered_seeds.eps>
+(epstopdf)             \includegraphics on input line 248.
+Package epstopdf Info: Output file is already uptodate.
+<metsim_vorticity_filtered_seeds-eps-converted-to.pdf, id=167, 334.24875pt x 334.24875pt>
+File: metsim_vorticity_filtered_seeds-eps-converted-to.pdf Graphic file (type pdf)
+<use metsim_vorticity_filtered_seeds-eps-converted-to.pdf>
+Package pdftex.def Info: metsim_vorticity_filtered_seeds-eps-converted-to.pdf  used on input line 248.
+(pdftex.def)             Requested size: 148.34747pt x 148.35005pt.
+Package epstopdf Info: Source file: <metsim_vorticity_filtered.eps>
+(epstopdf)                    date: 2025-03-14 13:50:33
+(epstopdf)                    size: 1324501 bytes
+(epstopdf)             Output file: <metsim_vorticity_filtered-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-14 14:05:05
+(epstopdf)                    size: 175235 bytes
+(epstopdf)             Command: <repstopdf --outfile=metsim_vorticity_filtered-eps-converted-to.pdf metsim_vorticity_filtered.eps>
+(epstopdf)             \includegraphics on input line 254.
+Package epstopdf Info: Output file is already uptodate.
+<metsim_vorticity_filtered-eps-converted-to.pdf, id=168, 268.00125pt x 268.00125pt>
+File: metsim_vorticity_filtered-eps-converted-to.pdf Graphic file (type pdf)
+<use metsim_vorticity_filtered-eps-converted-to.pdf>
+Package pdftex.def Info: metsim_vorticity_filtered-eps-converted-to.pdf  used on input line 254.
+(pdftex.def)             Requested size: 148.34747pt x 148.34578pt.
+ [10 <./metsim_vorticity_unfiltered_seeds-eps-converted-to.pdf> <./metsim_vorticity_unfiltered-eps-converted-to.pdf> <./metsim_vorticity_filtered_seeds-eps-converted-to.pdf> <./metsim_vorticity_filtered-eps-converted-to.pdf>]
+<euler.png, id=187, 564.1075pt x 485.815pt>
 File: euler.png Graphic file (type png)
 <use euler.png>
-Package pdftex.def Info: euler.png  used on input line 181.
+Package pdftex.def Info: euler.png  used on input line 271.
 (pdftex.def)             Requested size: 165.59853pt x 142.61736pt.
-<rk4.png, id=111, 610.28pt x 522.95375pt>
+<rk4.png, id=188, 610.28pt x 522.95375pt>
 File: rk4.png Graphic file (type png)
 <use rk4.png>
-Package pdftex.def Info: rk4.png  used on input line 187.
+Package pdftex.def Info: rk4.png  used on input line 277.
 (pdftex.def)             Requested size: 165.59853pt x 141.9016pt.
- [6 <./vort_result.png> <./vort_result_3_0.png> <./euler.png> <./rk4.png>] [7]
-<steps_8000_kernel_length_4.png, id=127, 347.6187pt x 348.3414pt>
-File: steps_8000_kernel_length_4.png Graphic file (type png)
-<use steps_8000_kernel_length_4.png>
-Package pdftex.def Info: steps_8000_kernel_length_4.png  used on input line 243.
-(pdftex.def)             Requested size: 110.40253pt x 110.63171pt.
-<steps_8000_kernel_length_8.png, id=128, 347.6187pt x 348.3414pt>
-File: steps_8000_kernel_length_8.png Graphic file (type png)
-<use steps_8000_kernel_length_8.png>
-Package pdftex.def Info: steps_8000_kernel_length_8.png  used on input line 249.
-(pdftex.def)             Requested size: 110.40253pt x 110.63171pt.
-<steps_8000_kernel_length_16.png, id=129, 347.6187pt x 348.3414pt>
-File: steps_8000_kernel_length_16.png Graphic file (type png)
-<use steps_8000_kernel_length_16.png>
-Package pdftex.def Info: steps_8000_kernel_length_16.png  used on input line 255.
-(pdftex.def)             Requested size: 110.40253pt x 110.63171pt.
-<frame_000.png, id=130, 333.8874pt x 333.8874pt>
-File: frame_000.png Graphic file (type png)
-<use frame_000.png>
-Package pdftex.def Info: frame_000.png  used on input line 270.
-(pdftex.def)             Requested size: 155.24895pt x 155.25093pt.
-<frame_006.png, id=131, 333.8874pt x 333.8874pt>
-File: frame_006.png Graphic file (type png)
-<use frame_006.png>
-Package pdftex.def Info: frame_006.png  used on input line 271.
-(pdftex.def)             Requested size: 155.24895pt x 155.25093pt.
-<frame_012.png, id=132, 333.8874pt x 333.8874pt>
-File: frame_012.png Graphic file (type png)
-<use frame_012.png>
-Package pdftex.def Info: frame_012.png  used on input line 272.
-(pdftex.def)             Requested size: 155.24895pt x 155.25093pt.
-<frame_018.png, id=133, 333.8874pt x 333.8874pt>
-File: frame_018.png Graphic file (type png)
-<use frame_018.png>
-Package pdftex.def Info: frame_018.png  used on input line 273.
-(pdftex.def)             Requested size: 155.24895pt x 155.25093pt.
+Package epstopdf Info: Source file: <metsim_uniform_euler.eps>
+(epstopdf)                    date: 2025-03-14 14:30:21
+(epstopdf)                    size: 984327 bytes
+(epstopdf)             Output file: <metsim_uniform_euler-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-14 14:30:34
+(epstopdf)                    size: 81455 bytes
+(epstopdf)             Command: <repstopdf --outfile=metsim_uniform_euler-eps-converted-to.pdf metsim_uniform_euler.eps>
+(epstopdf)             \includegraphics on input line 290.
+Package epstopdf Info: Output file is already uptodate.
+<metsim_uniform_euler-eps-converted-to.pdf, id=189, 282.05376pt x 268.00125pt>
+File: metsim_uniform_euler-eps-converted-to.pdf Graphic file (type pdf)
+<use metsim_uniform_euler-eps-converted-to.pdf>
+Package pdftex.def Info: metsim_uniform_euler-eps-converted-to.pdf  used on input line 290.
+(pdftex.def)             Requested size: 165.59853pt x 157.35056pt.
+Package epstopdf Info: Source file: <metsim_uniform_rk4.eps>
+(epstopdf)                    date: 2025-03-14 14:30:21
+(epstopdf)                    size: 984513 bytes
+(epstopdf)             Output file: <metsim_uniform_rk4-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-14 14:30:34
+(epstopdf)                    size: 81449 bytes
+(epstopdf)             Command: <repstopdf --outfile=metsim_uniform_rk4-eps-converted-to.pdf metsim_uniform_rk4.eps>
+(epstopdf)             \includegraphics on input line 296.
+Package epstopdf Info: Output file is already uptodate.
+<metsim_uniform_rk4-eps-converted-to.pdf, id=190, 282.05376pt x 268.00125pt>
+File: metsim_uniform_rk4-eps-converted-to.pdf Graphic file (type pdf)
+<use metsim_uniform_rk4-eps-converted-to.pdf>
+Package pdftex.def Info: metsim_uniform_rk4-eps-converted-to.pdf  used on input line 296.
+(pdftex.def)             Requested size: 165.59853pt x 157.35056pt.
+ [11 <./euler.png> <./rk4.png> <./metsim_uniform_euler-eps-converted-to.pdf> <./metsim_uniform_rk4-eps-converted-to.pdf>] [12]
+<unity_editor.png, id=210, 469.755pt x 123.46124pt>
+File: unity_editor.png Graphic file (type png)
+<use unity_editor.png>
+Package pdftex.def Info: unity_editor.png  used on input line 349.
+(pdftex.def)             Requested size: 258.75pt x 68.00372pt.
+ [13 <./unity_editor.png>]
+<LIC_metsim.png, id=218, 501.875pt x 501.875pt>
+File: LIC_metsim.png Graphic file (type png)
+<use LIC_metsim.png>
+Package pdftex.def Info: LIC_metsim.png  used on input line 375.
+(pdftex.def)             Requested size: 165.59853pt x 165.59628pt.
+<LIC_isabel.png, id=219, 501.875pt x 501.875pt>
+File: LIC_isabel.png Graphic file (type png)
+<use LIC_isabel.png>
+Package pdftex.def Info: LIC_isabel.png  used on input line 381.
+(pdftex.def)             Requested size: 165.59853pt x 165.59628pt.
+<lic_metsim_arc_1.png, id=220, 501.875pt x 501.875pt>
+File: lic_metsim_arc_1.png Graphic file (type png)
+<use lic_metsim_arc_1.png>
+Package pdftex.def Info: lic_metsim_arc_1.png  used on input line 393.
+(pdftex.def)             Requested size: 103.50105pt x 103.49767pt.
+<lic_metsim_arc_8.png, id=221, 501.875pt x 501.875pt>
+File: lic_metsim_arc_8.png Graphic file (type png)
+<use lic_metsim_arc_8.png>
+Package pdftex.def Info: lic_metsim_arc_8.png  used on input line 399.
+(pdftex.def)             Requested size: 103.50105pt x 103.49767pt.
+<lic_metsim_arc_50.png, id=222, 501.875pt x 501.875pt>
+File: lic_metsim_arc_50.png Graphic file (type png)
+<use lic_metsim_arc_50.png>
+Package pdftex.def Info: lic_metsim_arc_50.png  used on input line 405.
+(pdftex.def)             Requested size: 103.50105pt x 103.49767pt.
+<LIC_isabel_arc_length_1.png, id=223, 501.875pt x 501.875pt>
+File: LIC_isabel_arc_length_1.png Graphic file (type png)
+<use LIC_isabel_arc_length_1.png>
+Package pdftex.def Info: LIC_isabel_arc_length_1.png  used on input line 420.
+(pdftex.def)             Requested size: 103.50105pt x 103.49767pt.
+<LIC_isabel_arc_length_8.png, id=224, 501.875pt x 501.875pt>
+File: LIC_isabel_arc_length_8.png Graphic file (type png)
+<use LIC_isabel_arc_length_8.png>
+Package pdftex.def Info: LIC_isabel_arc_length_8.png  used on input line 426.
+(pdftex.def)             Requested size: 103.50105pt x 103.49767pt.
+<LIC_isabel_arc_length_50.png, id=225, 501.875pt x 501.875pt>
+File: LIC_isabel_arc_length_50.png Graphic file (type png)
+<use LIC_isabel_arc_length_50.png>
+Package pdftex.def Info: LIC_isabel_arc_length_50.png  used on input line 432.
+(pdftex.def)             Requested size: 103.50105pt x 103.49767pt.
+ [14 <./LIC_metsim.png (PNG copy)> <./LIC_isabel.png (PNG copy)> <./lic_metsim_arc_1.png (PNG copy)> <./lic_metsim_arc_8.png (PNG copy)> <./lic_metsim_arc_50.png (PNG copy)>]
+<isabel_euler.png, id=232, 501.875pt x 501.875pt>
+File: isabel_euler.png Graphic file (type png)
+<use isabel_euler.png>
+Package pdftex.def Info: isabel_euler.png  used on input line 445.
+(pdftex.def)             Requested size: 165.59853pt x 165.59628pt.
+<isabel_rk4.png, id=233, 501.875pt x 501.875pt>
+File: isabel_rk4.png Graphic file (type png)
+<use isabel_rk4.png>
+Package pdftex.def Info: isabel_rk4.png  used on input line 451.
+(pdftex.def)             Requested size: 165.59853pt x 165.59628pt.
+<lic_metsim_euler.png, id=234, 501.875pt x 501.875pt>
+File: lic_metsim_euler.png Graphic file (type png)
+<use lic_metsim_euler.png>
+Package pdftex.def Info: lic_metsim_euler.png  used on input line 460.
+(pdftex.def)             Requested size: 165.59853pt x 165.59628pt.
+<lic_metsim_rk4.png, id=235, 501.875pt x 501.875pt>
+File: lic_metsim_rk4.png Graphic file (type png)
+<use lic_metsim_rk4.png>
+Package pdftex.def Info: lic_metsim_rk4.png  used on input line 466.
+(pdftex.def)             Requested size: 165.59853pt x 165.59628pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <./steps_8000_kernel_length_4.png> <./steps_8000_kernel_length_8.png> <./steps_8000_kernel_length_16.png>] [9 <./frame_000.png> <./frame_006.png> <./frame_012.png> <./frame_018.png>]
-<metsim_original.png, id=151, 482.80376pt x 483.8075pt>
+[15 <./LIC_isabel_arc_length_1.png (PNG copy)> <./LIC_isabel_arc_length_8.png (PNG copy)> <./LIC_isabel_arc_length_50.png (PNG copy)> <./isabel_euler.png (PNG copy)> <./isabel_rk4.png (PNG copy)>]
+<metsim_original.png, id=242, 482.80376pt x 483.8075pt>
 File: metsim_original.png Graphic file (type png)
 <use metsim_original.png>
-Package pdftex.def Info: metsim_original.png  used on input line 298.
+Package pdftex.def Info: metsim_original.png  used on input line 487.
 (pdftex.def)             Requested size: 110.40253pt x 110.63112pt.
-<metsim_250_250.png, id=152, 482.80376pt x 483.8075pt>
+<metsim_250_250.png, id=243, 482.80376pt x 483.8075pt>
 File: metsim_250_250.png Graphic file (type png)
 <use metsim_250_250.png>
-Package pdftex.def Info: metsim_250_250.png  used on input line 304.
+Package pdftex.def Info: metsim_250_250.png  used on input line 493.
 (pdftex.def)             Requested size: 110.40253pt x 110.63112pt.
-<metsim_500_500.png, id=153, 482.80376pt x 483.8075pt>
+<metsim_500_500.png, id=244, 482.80376pt x 483.8075pt>
 File: metsim_500_500.png Graphic file (type png)
 <use metsim_500_500.png>
-Package pdftex.def Info: metsim_500_500.png  used on input line 310.
+Package pdftex.def Info: metsim_500_500.png  used on input line 499.
 (pdftex.def)             Requested size: 110.40253pt x 110.63112pt.
- [10 <./metsim_original.png> <./metsim_250_250.png> <./metsim_500_500.png>] [11] (./oblig.aux)
+ [16 <./lic_metsim_euler.png (PNG copy)> <./lic_metsim_rk4.png (PNG copy)> <./metsim_original.png> <./metsim_250_250.png> <./metsim_500_500.png>] [17] (./oblig.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `oblig.out' has not changed.
-(rerunfilecheck)             Checksum: 51477D8032C4C390C644013ACF2DB04B;2026.
+(rerunfilecheck)             Checksum: E1C360300965D9B6E1DC61486C734FE7;2327.
  ) 
 Here is how much of TeX's memory you used:
- 10795 strings out of 474116
- 172972 string characters out of 5743682
+ 10932 strings out of 474116
+ 178239 string characters out of 5743682
  1934187 words of memory out of 5000000
- 33003 multiletter control sequences out of 15000+600000
+ 33124 multiletter control sequences out of 15000+600000
  567018 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,79p,420b,613s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,478b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on oblig.pdf (11 pages, 20058660 bytes).
+Output written on oblig.pdf (17 pages, 17462918 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 336 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 303 words of extra memory for PDF output out of 10000 (max. 10000000)
 
